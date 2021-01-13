@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "akairo-boiler",
+  "version": "1.0.0",
+  "description": "A boilerplate Discord bot built on discord-akairo.",
+  "main": "build/index.js",
+  "scripts": {
+	"test": "eslint ./**/*.ts && tsc -p .",
+	"build": "tsc -p .",
+	"lint": "eslint ./**/*.ts",
+	"lint:fix": "eslint ./**/*.ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/qwright10/akairo-boiler.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord",
+    "bot",
+    "template"
+  ],
+  "author": "Quentin Wright <wrightq00@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qwright10/akairo-boiler/issues"
+  },
+  "homepage": "https://github.com/qwright10/akairo-boiler#readme",
+  "dependencies": {
+    "@discordjs/collection": "^0.1.6",
+    "bufferutil": "^4.0.3",
+    "chalk": "^4.1.0",
+    "discord-akairo": "^8.1.0",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "erlpack": "^0.1.3",
+    "pg": "^8.5.1",
+    "tslib": "^2.1.0",
+    "typeorm": "^0.2.29",
+    "utf-8-validate": "^5.0.4",
+    "zlib-sync": "^0.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "@types/ws": "^7.4.0",
+    "@typescript-eslint/eslint-plugin": "^4.12.0",
+    "@typescript-eslint/parser": "^4.12.0",
+    "eslint": "^7.17.0",
+    "eslint-config-marine": "^8.1.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  }
+}
